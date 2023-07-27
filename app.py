@@ -12,7 +12,7 @@ def digitar_naturalmente(texto, elemento):
     
 
 # 1. RECEBER O EMAIL OU TELEFONE DE USUÁRIO NO FACEBOOK.
-usuario = 'jonatas.lopes98@outlook.com'
+usuario = ''
 # 2. RECEBER A SENHA DO FACEBOOK
 senha = input("Digite a senha: ")
 # 3. RECEBER O TEXTO QUE DESEJA POSTAR
@@ -47,14 +47,16 @@ sleep(30)
 # 14. ROLAR A PÁGINA PARA BAIXO
 driver.execute_script('window.scrollBy(0, 500);')
 sleep(3)
-campo_postagem = driver.find_element(By.XPATH, '//span[starts-with(text(), "No que você está pensando,")]')
+campo_postagem = driver.find_element(By.XPATH, '//div[@class="xi81zsa x1lkfr7t xkjl1po x1mzt3pk xh8yej3' \
+    ' x13faqbe"]/span')
 sleep(1)
 # 15. LOCALIZAR O CAMPO DE POST
 # 16. CLICAR NO CAMPO DE POST
 campo_postagem.click()
 sleep(1)
 # 17. LOCALIZAR O SEGUNDO CAMPO DE POST
-campo_postagem2 = driver.find_element(By.XPATH, '//div[starts-with(@aria-label, "No que você está pensando,")]/p')
+campo_postagem2 = driver.find_element(By.XPATH, '//div[@class="xzsf02u x1a2a7pz x1n2onr6 x14wi4xw x9f619' \
+    ' x1lliihq x5yr21d xh8yej3 notranslate"]/p')
 sleep(1)
 # 18. DIGITAR O POST INFORMADO
 digitar_naturalmente(texto_post, campo_postagem2)
@@ -63,7 +65,8 @@ sleep(1)
 driver.execute_script('window.scrollTo(0, document.body.scrollHeight);')
 sleep(3)
 # 20. LOCALIZAR BOTÃO "Publicar"
-botao_publicar = driver.find_element(By.XPATH, '//div[@aria-label="Publicar"]')
+botao_publicar = driver.find_element(By.XPATH, '//div[@class="x6s0dn4 x9f619 x78zum5 x1qughib x1pi30zi' \
+    ' x1swvt13 xyamay9 xh8yej3"]//div[@class="x6s0dn4 x78zum5 xl56j7k x1608yet xljgi0e x1e0frkt"]')
 sleep(1)
 # 21. APERTAR EM "Publicar"
 botao_publicar.click()
