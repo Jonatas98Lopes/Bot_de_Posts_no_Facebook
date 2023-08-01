@@ -19,6 +19,8 @@ Assista ao vídeo de funcionamento do projeto clicando aqui!
 
 * Possuir o navegador Google Chrome instalado.
 
+* Possuir uma resolução de tela de **1366 x 766**. É possível alterar essas configurações no seu sistema operacional. No Windows, por exemplo, procure por Configurações de exibição. 
+
 ***
 
 ## Algoritmo do Projeto:
