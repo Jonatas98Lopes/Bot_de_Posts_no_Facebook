@@ -7,7 +7,7 @@
 
 Neste projeto, vamos criar uma aplicação para automatizar o processo de postagem no seu Facebook. A ideia é que usuario informa os dados de acesso da conta dele, assim como a mensagem que deseja publicar, e o programa faz todo o resto do processo. Desde o acesso a conta até a postagem.
 
-Assista ao vídeo de funcionamento do projeto clicando aqui!
+Assista ao vídeo de funcionamento do projeto [clicando aqui!](https://www.linkedin.com/feed/update/urn:li:activity:7091700266818805763/)
 
 ***
 
