@@ -19,7 +19,6 @@ Assista ao vídeo de funcionamento do projeto [clicando aqui!](https://www.linke
 
 * Possuir o navegador Google Chrome instalado.
 
-* Possuir uma resolução de tela de **1366 x 766**. É possível alterar essas configurações no seu sistema operacional. No Windows, por exemplo, procure por Configurações de exibição. 
 
 ***
 
@@ -132,7 +131,6 @@ pip3 install -r requirements.txt
 ```
 Pronto! Você está apto para rodar o projeto.
 
-**LEMBRE-SE DE FECHAR TODOS PROGRAMAS E DESABILITAR AS NOTIFICAÇÕES ANTES DE RODAR O PROGRAMA!**
 
 ***
 
